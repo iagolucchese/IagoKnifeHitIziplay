@@ -4,6 +4,7 @@
     <e p="C:\Users\iagol\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
     <e p="C:\Users\iagol\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_IagoTesteIziplay.1583860608.00" t="ExcludeRecursive" />
     <e p="E:\Unity Projects\IagoTesteIziplay" t="IncludeRecursive">
+      <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Imported" t="Include">
@@ -39,12 +40,41 @@
             </e>
           </e>
         </e>
+        <e p="Plugins" t="Include">
+          <e p="Demigiant" t="Include">
+            <e p="DOTween" t="Include">
+              <e p="Modules" t="Include">
+                <e p="DOTweenModuleAudio.cs" t="Include" />
+                <e p="DOTweenModulePhysics.cs" t="Include" />
+                <e p="DOTweenModulePhysics2D.cs" t="Include" />
+                <e p="DOTweenModuleSprite.cs" t="Include" />
+                <e p="DOTweenModuleUI.cs" t="Include" />
+                <e p="DOTweenModuleUnityVersion.cs" t="Include" />
+                <e p="DOTweenModuleUtils.cs" t="Include" />
+              </e>
+              <e p="readme.txt" t="Include" />
+            </e>
+          </e>
+        </e>
         <e p="Scripts" t="Include">
           <e p="GameManager.cs" t="Include" />
           <e p="IagoUnityScriptsRepo" t="Include">
             <e p="AScriptableObject.cs" t="Include" />
             <e p="ASingleton.cs" t="Include" />
+            <e p="ASingletonDestroyedOnLoad.cs" t="Include" />
             <e p="InputManager.cs" t="Include" />
+          </e>
+          <e p="KnifeSpawnerBehavior.cs" t="Include" />
+          <e p="KnifeSpriteSelector.cs" t="Include" />
+          <e p="KnifeSpriteSetter.cs" t="Include" />
+          <e p="StageParameters.cs" t="Include" />
+          <e p="TargetBehavior.cs" t="Include" />
+          <e p="UI Scripts" t="Include">
+            <e p="UIAmmoCounter.cs" t="Include" />
+            <e p="UICanvasGroup.cs" t="Include" />
+            <e p="UICurrentStage.cs" t="Include" />
+            <e p="UIGameScore.cs" t="Include" />
+            <e p="UIPlayerHighScore.cs" t="Include" />
           </e>
         </e>
       </e>

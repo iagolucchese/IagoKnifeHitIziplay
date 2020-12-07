@@ -18,12 +18,9 @@ namespace IagoUnityScriptsRepo
 
         private void GrabPlayerInputs()
         {
-            //assumindo que o player usa KB+M ou controle de XBOX
-            //eixos de movimento do player
-            horizontalInput = GetAxisInput("Horizontal", out horizontal);
-            verticalInput = GetAxisInput("Vertical", out vertical);
+            horizontalInput = GetAxisInput("Mouse X", out horizontal);
+            verticalInput = GetAxisInput("Mouse Y", out vertical);
 
-            //botões de ação
             GetButtonHoldAndDownInputs("Fire1",out fire1Down, out fire1);
         }
 
